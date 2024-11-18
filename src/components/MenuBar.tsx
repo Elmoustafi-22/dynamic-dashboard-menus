@@ -61,13 +61,15 @@ const menuList: Menu[] = [
 ];
 
 const MenuBar = () => {
-    return <ul>
-        {
-            menuList.map((menu: Menu, i: number) => {
-                return <MainMenu key={i} menu={menu}/>
-            })
-        }
-    </ul>
+    return (
+        <ul className="w-full">
+            {
+                menuList.map((menu: Menu, i: number) => {
+                    return <MainMenu key={i} menu={menu}/>
+                })
+            }
+        </ul>
+    )
 }
 
 export default MenuBar;

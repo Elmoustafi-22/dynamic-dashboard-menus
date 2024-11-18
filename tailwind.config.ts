@@ -10,12 +10,12 @@ export default {
     colors: {
         primary: "#ee6055",
         secondary: "#ffd7df",
-        white:"#fff",
+        white: "#fff",
         darkGray: "#3e4b5b",
       },
-    extend: {
-      backgroundImage: {
-        headerBg: "linear-gradient(to right, #ee6055 30%, #ffd7df 100%)"
+      extend: {
+        backgroundImage: {
+          headerBg: "linear-gradient(to right, #ee6055 30%, #ffd7df 100%)",
       }
     },
   },
