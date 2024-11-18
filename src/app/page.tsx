@@ -1,7 +1,9 @@
-export default function Home() {
+import Header from "@/components/header";
+
+export default function Dashboard() {
   return (
-    <div>
-      Hello
-    </div>
+    <section>
+      <Header title="Dashboard" />
+    </section>
   );
 }
